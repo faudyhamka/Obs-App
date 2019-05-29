@@ -1,0 +1,525 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:2:1-65:12
+INJECTED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:2:1-65:12
+INJECTED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:2:1-65:12
+INJECTED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:2:1-65:12
+MERGED from [com.google.android.gms:play-services-ads:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-ads-11.8.0.aar\06828bbc2aaa02b993c1a0bd6e7eec2b\AndroidManifest.xml:17:1-25:12
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\5054704f96c7eb211fcb911bb937b2a1\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-maps:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.8.0.aar\b9409295e4dc83ef24cc2e880efc2ea2\AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-location:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-location-11.8.0.aar\16e861d1a81c1b5f8673396c50a2967c\AndroidManifest.xml:2:1-9:12
+MERGED from [com.github.GoodieBag:Pinview:v1.3] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\Pinview-v1.3.aar\c7d67865d40970611bfbc9c8718da217\AndroidManifest.xml:2:1-17:12
+MERGED from [com.theartofdev.edmodo:android-image-cropper:2.6.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\android-image-cropper-2.6.0.aar\7eb0e9d9d315d6266e2c5953bb2f103f\AndroidManifest.xml:2:1-12:12
+MERGED from [com.android.support:design:27.1.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\design-27.1.0.aar\563c5cb669320c25733ac4b160cf8441\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\b55e2d4ac09f9078c96e0288d3241214\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:26.0.0-alpha1] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.0.0-alpha1.aar\0a3d27cf9f16f04fdc639fc80512daf1\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:recyclerview-v7:27.1.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.0.aar\37f40e97c56e7cfd9a4364ac773c606b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.markushi:circlebutton:1.1] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\circlebutton-1.1.aar\e482990cb6a31fbfb1e94e2bdd46685a\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\b0fcab4faa0c145fa15ab21599f6ee9f\AndroidManifest.xml:2:1-11:12
+MERGED from [com.jjoe64:graphview:4.2.2] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\graphview-4.2.2.aar\e7ce16e56b58ae57917b7972f77de5a0\AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\72e37a02371781335a3d9fbd13ac31c7\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-core:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-core-11.8.0.aar\8787ca8900e9bd05a4b012797bb20885\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-ads-lite:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.8.0.aar\948c315263c08a4fb110341e232d623f\AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.android.gms:play-services-gass:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-gass-11.8.0.aar\f756101bb89669768d673c6ad4f3423a\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\c8dfdc4dc2179de2e9cde172b1c1b780\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\26f3e8ed2ec309aa0300878b553c3a5e\AndroidManifest.xml:17:1-54:12
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.8.0.aar\9d4441d7ef91c43f65f674d87a059be5\AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\294b8b4ee7796c31ac0d56c8c18cf0cb\AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.firebase:firebase-common:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-common-11.8.0.aar\da49c7e471c7d929aeefc73f23288322\AndroidManifest.xml:2:1-15:12
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.8.0.aar\9ede0b47427b1fd061f8185898478552\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\d49b80986255f9580604b243c1933097\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-ads-license:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-ads-license-11.8.0.aar\d104d842135863c2483921f9c834eca0\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-maps-license:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-maps-license-11.8.0.aar\86c04ac73f830abfa34261a8ac7bc53a\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-location-license:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-location-license-11.8.0.aar\336d9c950cc9efcc140bdc3a00e731fe\AndroidManifest.xml:2:1-6:12
+MERGED from [com.android.support:exifinterface:27.1.1] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\exifinterface-27.1.1.aar\cb7c7a981ae588087e5647558edd963f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\transition-27.1.0.aar\a382abeefd6bdd07ef0899fc555b89d9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\61013dcd161b1b10542ec5cf99a4dad3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\329e48f7e82d88daa62cba0b40bd6c88\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\506d1c14eb6f1b05a4dd5f32d8fdaed0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\8be5d62662b6148bb8459512edd15238\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\917de9b5e52100e46114c1c4af205b45\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\3ce80d1bb52247f9fecc4ee691e27d39\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\56cc54940fc7a75c839f0e5da8eb78ea\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\707db9e50e06f5dcd33eb11bf41e72a3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-ads-lite-license:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-license-11.8.0.aar\3b2c1a3d32e6ca6302f6faa68e7e2f0c\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\63d0c2f722846cc6f91afa195466215a\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-gass-license:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-gass-license-11.8.0.aar\60823b26eecb267ece9b8926926b1b38\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.8.0.aar\634b41f01c3cad65973e8cbfb92b6459\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\4b1572ffe24df35abf44dc87578546b0\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-analytics-license:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-analytics-license-11.8.0.aar\10762a201f479f3a0e9f6fb3bff5aa39\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-common-license:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-common-license-11.8.0.aar\011b6a8d3dc5deac48450bbbae9901ee\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-license-11.8.0.aar\8626bab6467b4a0d9ad36fa4326e3390\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-iid-license:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-11.8.0.aar\81fb7dd2d3ce8c8d2750944d088b3c46\AndroidManifest.xml:2:1-6:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\9a948f06ba52483293b10f490483e7eb\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\9a50e3698a003473433290aee0c83f68\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\797dc0db89ed24fe279d96628cf54719\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\08830fdaeab4658bc1ac17dff5c31e9e\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:2:1-65:12
+INJECTED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:2:1-65:12
+INJECTED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:2:1-65:12
+	package
+		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:3:5-59
+		INJECTED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml
+		INJECTED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml
+		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:2:1-65:12
+		INJECTED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml
+		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:2:1-65:12
+		INJECTED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:10:22-76
+uses-permission#android.permission.INTERNET
+ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-maps:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.8.0.aar\b9409295e4dc83ef24cc2e880efc2ea2\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.8.0.aar\b9409295e4dc83ef24cc2e880efc2ea2\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.8.0.aar\948c315263c08a4fb110341e232d623f\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.8.0.aar\948c315263c08a4fb110341e232d623f\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\26f3e8ed2ec309aa0300878b553c3a5e\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\26f3e8ed2ec309aa0300878b553c3a5e\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.8.0.aar\9d4441d7ef91c43f65f674d87a059be5\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.8.0.aar\9d4441d7ef91c43f65f674d87a059be5\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\294b8b4ee7796c31ac0d56c8c18cf0cb\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\294b8b4ee7796c31ac0d56c8c18cf0cb\AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:11:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:12:5-79
+MERGED from [com.google.android.gms:play-services-maps:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.8.0.aar\b9409295e4dc83ef24cc2e880efc2ea2\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.8.0.aar\b9409295e4dc83ef24cc2e880efc2ea2\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.8.0.aar\948c315263c08a4fb110341e232d623f\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.8.0.aar\948c315263c08a4fb110341e232d623f\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\26f3e8ed2ec309aa0300878b553c3a5e\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\26f3e8ed2ec309aa0300878b553c3a5e\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.8.0.aar\9d4441d7ef91c43f65f674d87a059be5\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.8.0.aar\9d4441d7ef91c43f65f674d87a059be5\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\294b8b4ee7796c31ac0d56c8c18cf0cb\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\294b8b4ee7796c31ac0d56c8c18cf0cb\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:12:22-76
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:13:5-80
+	android:name
+		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:13:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:14:5-81
+	android:name
+		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:14:22-78
+application
+ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:16:5-58:19
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\5054704f96c7eb211fcb911bb937b2a1\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\5054704f96c7eb211fcb911bb937b2a1\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-maps:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.8.0.aar\b9409295e4dc83ef24cc2e880efc2ea2\AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-maps:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.8.0.aar\b9409295e4dc83ef24cc2e880efc2ea2\AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-location:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-location-11.8.0.aar\16e861d1a81c1b5f8673396c50a2967c\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-location-11.8.0.aar\16e861d1a81c1b5f8673396c50a2967c\AndroidManifest.xml:7:5-20
+MERGED from [com.github.GoodieBag:Pinview:v1.3] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\Pinview-v1.3.aar\c7d67865d40970611bfbc9c8718da217\AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.GoodieBag:Pinview:v1.3] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\Pinview-v1.3.aar\c7d67865d40970611bfbc9c8718da217\AndroidManifest.xml:11:5-15:19
+MERGED from [com.android.support:cardview-v7:26.0.0-alpha1] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.0.0-alpha1.aar\0a3d27cf9f16f04fdc639fc80512daf1\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:cardview-v7:26.0.0-alpha1] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.0.0-alpha1.aar\0a3d27cf9f16f04fdc639fc80512daf1\AndroidManifest.xml:26:5-20
+MERGED from [com.github.markushi:circlebutton:1.1] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\circlebutton-1.1.aar\e482990cb6a31fbfb1e94e2bdd46685a\AndroidManifest.xml:9:5-20
+MERGED from [com.github.markushi:circlebutton:1.1] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\circlebutton-1.1.aar\e482990cb6a31fbfb1e94e2bdd46685a\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\b0fcab4faa0c145fa15ab21599f6ee9f\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\b0fcab4faa0c145fa15ab21599f6ee9f\AndroidManifest.xml:9:5-20
+MERGED from [com.jjoe64:graphview:4.2.2] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\graphview-4.2.2.aar\e7ce16e56b58ae57917b7972f77de5a0\AndroidManifest.xml:11:5-12:19
+MERGED from [com.jjoe64:graphview:4.2.2] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\graphview-4.2.2.aar\e7ce16e56b58ae57917b7972f77de5a0\AndroidManifest.xml:11:5-12:19
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\72e37a02371781335a3d9fbd13ac31c7\AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\72e37a02371781335a3d9fbd13ac31c7\AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-core:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-core-11.8.0.aar\8787ca8900e9bd05a4b012797bb20885\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-core:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-core-11.8.0.aar\8787ca8900e9bd05a4b012797bb20885\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.8.0.aar\948c315263c08a4fb110341e232d623f\AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-ads-lite:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.8.0.aar\948c315263c08a4fb110341e232d623f\AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-gass:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-gass-11.8.0.aar\f756101bb89669768d673c6ad4f3423a\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-gass:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-gass-11.8.0.aar\f756101bb89669768d673c6ad4f3423a\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\c8dfdc4dc2179de2e9cde172b1c1b780\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\c8dfdc4dc2179de2e9cde172b1c1b780\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\26f3e8ed2ec309aa0300878b553c3a5e\AndroidManifest.xml:27:5-52:19
+MERGED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\26f3e8ed2ec309aa0300878b553c3a5e\AndroidManifest.xml:27:5-52:19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.8.0.aar\9d4441d7ef91c43f65f674d87a059be5\AndroidManifest.xml:27:5-38:19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.8.0.aar\9d4441d7ef91c43f65f674d87a059be5\AndroidManifest.xml:27:5-38:19
+MERGED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\294b8b4ee7796c31ac0d56c8c18cf0cb\AndroidManifest.xml:34:5-57:19
+MERGED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\294b8b4ee7796c31ac0d56c8c18cf0cb\AndroidManifest.xml:34:5-57:19
+MERGED from [com.google.firebase:firebase-common:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-common-11.8.0.aar\da49c7e471c7d929aeefc73f23288322\AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.firebase:firebase-common:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-common-11.8.0.aar\da49c7e471c7d929aeefc73f23288322\AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.8.0.aar\9ede0b47427b1fd061f8185898478552\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.8.0.aar\9ede0b47427b1fd061f8185898478552\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\d49b80986255f9580604b243c1933097\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\d49b80986255f9580604b243c1933097\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-ads-license:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-ads-license-11.8.0.aar\d104d842135863c2483921f9c834eca0\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-ads-license:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-ads-license-11.8.0.aar\d104d842135863c2483921f9c834eca0\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-maps-license:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-maps-license-11.8.0.aar\86c04ac73f830abfa34261a8ac7bc53a\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-maps-license:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-maps-license-11.8.0.aar\86c04ac73f830abfa34261a8ac7bc53a\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-location-license:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-location-license-11.8.0.aar\336d9c950cc9efcc140bdc3a00e731fe\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-location-license:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-location-license-11.8.0.aar\336d9c950cc9efcc140bdc3a00e731fe\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite-license:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-license-11.8.0.aar\3b2c1a3d32e6ca6302f6faa68e7e2f0c\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite-license:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-license-11.8.0.aar\3b2c1a3d32e6ca6302f6faa68e7e2f0c\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\63d0c2f722846cc6f91afa195466215a\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\63d0c2f722846cc6f91afa195466215a\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-gass-license:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-gass-license-11.8.0.aar\60823b26eecb267ece9b8926926b1b38\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-gass-license:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-gass-license-11.8.0.aar\60823b26eecb267ece9b8926926b1b38\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.8.0.aar\634b41f01c3cad65973e8cbfb92b6459\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.8.0.aar\634b41f01c3cad65973e8cbfb92b6459\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\4b1572ffe24df35abf44dc87578546b0\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\4b1572ffe24df35abf44dc87578546b0\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics-license:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-analytics-license-11.8.0.aar\10762a201f479f3a0e9f6fb3bff5aa39\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics-license:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-analytics-license-11.8.0.aar\10762a201f479f3a0e9f6fb3bff5aa39\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-common-license:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-common-license-11.8.0.aar\011b6a8d3dc5deac48450bbbae9901ee\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-common-license:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-common-license-11.8.0.aar\011b6a8d3dc5deac48450bbbae9901ee\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-license-11.8.0.aar\8626bab6467b4a0d9ad36fa4326e3390\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-license-11.8.0.aar\8626bab6467b4a0d9ad36fa4326e3390\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-iid-license:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-11.8.0.aar\81fb7dd2d3ce8c8d2750944d088b3c46\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-iid-license:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-11.8.0.aar\81fb7dd2d3ce8c8d2750944d088b3c46\AndroidManifest.xml:5:5-20
+	android:supportsRtl
+		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:20:9-35
+	android:label
+		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:19:9-41
+	android:icon
+		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:18:9-43
+	android:allowBackup
+		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:17:9-35
+	android:theme
+		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:21:9-40
+meta-data#com.google.android.geo.API_KEY
+ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:22:9-24:55
+	android:value
+		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:24:13-52
+	android:name
+		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:23:13-58
+activity#com.example.amiramaulina.gpstrackerapptrial1.MainActivity
+ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:26:9-32:20
+	android:name
+		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:26:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:27:13-31:29
+action#android.intent.action.MAIN
+ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:28:17-69
+	android:name
+		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:28:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:30:17-77
+	android:name
+		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:30:27-74
+activity#com.example.amiramaulina.gpstrackerapptrial1.IPName
+ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:41:9-44
+	android:name
+		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:41:19-41
+activity#com.example.amiramaulina.gpstrackerapptrial1.LiveMapActivity
+ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:42:9-53
+	android:name
+		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:42:19-50
+activity#com.example.amiramaulina.gpstrackerapptrial1.FStateHistory
+ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:43:9-51
+	android:name
+		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:43:19-48
+activity#com.example.amiramaulina.gpstrackerapptrial1.HRStatistics
+ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:44:9-50
+	android:name
+		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:44:19-47
+activity#com.example.amiramaulina.gpstrackerapptrial1.HRStateHistory
+ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:45:9-52
+	android:name
+		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:45:19-49
+meta-data#com.google.android.gms.version
+ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:47:9-49:69
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\d49b80986255f9580604b243c1933097\AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\d49b80986255f9580604b243c1933097\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:49:13-66
+	android:name
+		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:48:13-58
+meta-data#preloaded_fonts
+ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:50:9-52:57
+	android:resource
+		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:52:13-54
+	android:name
+		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:51:13-43
+activity#com.example.amiramaulina.gpstrackerapptrial1.MenuActivityUser
+ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:54:9-57:47
+	android:label
+		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:56:13-46
+	android:theme
+		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:57:13-44
+	android:name
+		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:55:13-45
+uses-permission#android.permission.WRITE_INTERNAL_STORAGE
+ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:64:5-81
+	android:name
+		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:64:22-78
+uses-sdk
+INJECTED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml
+INJECTED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml
+MERGED from [com.google.android.gms:play-services-ads:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-ads-11.8.0.aar\06828bbc2aaa02b993c1a0bd6e7eec2b\AndroidManifest.xml:21:5-23:62
+MERGED from [com.google.android.gms:play-services-ads:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-ads-11.8.0.aar\06828bbc2aaa02b993c1a0bd6e7eec2b\AndroidManifest.xml:21:5-23:62
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\5054704f96c7eb211fcb911bb937b2a1\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\5054704f96c7eb211fcb911bb937b2a1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-maps:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.8.0.aar\b9409295e4dc83ef24cc2e880efc2ea2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.8.0.aar\b9409295e4dc83ef24cc2e880efc2ea2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-location-11.8.0.aar\16e861d1a81c1b5f8673396c50a2967c\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-location-11.8.0.aar\16e861d1a81c1b5f8673396c50a2967c\AndroidManifest.xml:5:5-44
+MERGED from [com.github.GoodieBag:Pinview:v1.3] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\Pinview-v1.3.aar\c7d67865d40970611bfbc9c8718da217\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.GoodieBag:Pinview:v1.3] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\Pinview-v1.3.aar\c7d67865d40970611bfbc9c8718da217\AndroidManifest.xml:7:5-9:41
+MERGED from [com.theartofdev.edmodo:android-image-cropper:2.6.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\android-image-cropper-2.6.0.aar\7eb0e9d9d315d6266e2c5953bb2f103f\AndroidManifest.xml:8:5-10:41
+MERGED from [com.theartofdev.edmodo:android-image-cropper:2.6.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\android-image-cropper-2.6.0.aar\7eb0e9d9d315d6266e2c5953bb2f103f\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:design:27.1.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\design-27.1.0.aar\563c5cb669320c25733ac4b160cf8441\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\design-27.1.0.aar\563c5cb669320c25733ac4b160cf8441\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\b55e2d4ac09f9078c96e0288d3241214\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\b55e2d4ac09f9078c96e0288d3241214\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:26.0.0-alpha1] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.0.0-alpha1.aar\0a3d27cf9f16f04fdc639fc80512daf1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:26.0.0-alpha1] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.0.0-alpha1.aar\0a3d27cf9f16f04fdc639fc80512daf1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.0.aar\37f40e97c56e7cfd9a4364ac773c606b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.0.aar\37f40e97c56e7cfd9a4364ac773c606b\AndroidManifest.xml:20:5-44
+MERGED from [com.github.markushi:circlebutton:1.1] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\circlebutton-1.1.aar\e482990cb6a31fbfb1e94e2bdd46685a\AndroidManifest.xml:7:5-44
+MERGED from [com.github.markushi:circlebutton:1.1] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\circlebutton-1.1.aar\e482990cb6a31fbfb1e94e2bdd46685a\AndroidManifest.xml:7:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\b0fcab4faa0c145fa15ab21599f6ee9f\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\b0fcab4faa0c145fa15ab21599f6ee9f\AndroidManifest.xml:5:5-7:41
+MERGED from [com.jjoe64:graphview:4.2.2] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\graphview-4.2.2.aar\e7ce16e56b58ae57917b7972f77de5a0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.jjoe64:graphview:4.2.2] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\graphview-4.2.2.aar\e7ce16e56b58ae57917b7972f77de5a0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\72e37a02371781335a3d9fbd13ac31c7\AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\72e37a02371781335a3d9fbd13ac31c7\AndroidManifest.xml:7:5-43
+MERGED from [com.google.firebase:firebase-core:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-core-11.8.0.aar\8787ca8900e9bd05a4b012797bb20885\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-core:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-core-11.8.0.aar\8787ca8900e9bd05a4b012797bb20885\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-ads-lite:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.8.0.aar\948c315263c08a4fb110341e232d623f\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.8.0.aar\948c315263c08a4fb110341e232d623f\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gass:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-gass-11.8.0.aar\f756101bb89669768d673c6ad4f3423a\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-gass:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-gass-11.8.0.aar\f756101bb89669768d673c6ad4f3423a\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\c8dfdc4dc2179de2e9cde172b1c1b780\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\c8dfdc4dc2179de2e9cde172b1c1b780\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\26f3e8ed2ec309aa0300878b553c3a5e\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\26f3e8ed2ec309aa0300878b553c3a5e\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.8.0.aar\9d4441d7ef91c43f65f674d87a059be5\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.8.0.aar\9d4441d7ef91c43f65f674d87a059be5\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\294b8b4ee7796c31ac0d56c8c18cf0cb\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\294b8b4ee7796c31ac0d56c8c18cf0cb\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-common-11.8.0.aar\da49c7e471c7d929aeefc73f23288322\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-common-11.8.0.aar\da49c7e471c7d929aeefc73f23288322\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.8.0.aar\9ede0b47427b1fd061f8185898478552\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.8.0.aar\9ede0b47427b1fd061f8185898478552\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\d49b80986255f9580604b243c1933097\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\d49b80986255f9580604b243c1933097\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-license:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-ads-license-11.8.0.aar\d104d842135863c2483921f9c834eca0\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-ads-license:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-ads-license-11.8.0.aar\d104d842135863c2483921f9c834eca0\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-maps-license:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-maps-license-11.8.0.aar\86c04ac73f830abfa34261a8ac7bc53a\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-maps-license:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-maps-license-11.8.0.aar\86c04ac73f830abfa34261a8ac7bc53a\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-location-license:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-location-license-11.8.0.aar\336d9c950cc9efcc140bdc3a00e731fe\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-location-license:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-location-license-11.8.0.aar\336d9c950cc9efcc140bdc3a00e731fe\AndroidManifest.xml:4:5-43
+MERGED from [com.android.support:exifinterface:27.1.1] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\exifinterface-27.1.1.aar\cb7c7a981ae588087e5647558edd963f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.1] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\exifinterface-27.1.1.aar\cb7c7a981ae588087e5647558edd963f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\transition-27.1.0.aar\a382abeefd6bdd07ef0899fc555b89d9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\transition-27.1.0.aar\a382abeefd6bdd07ef0899fc555b89d9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\61013dcd161b1b10542ec5cf99a4dad3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\61013dcd161b1b10542ec5cf99a4dad3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\329e48f7e82d88daa62cba0b40bd6c88\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\329e48f7e82d88daa62cba0b40bd6c88\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\506d1c14eb6f1b05a4dd5f32d8fdaed0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\506d1c14eb6f1b05a4dd5f32d8fdaed0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\8be5d62662b6148bb8459512edd15238\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\8be5d62662b6148bb8459512edd15238\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\917de9b5e52100e46114c1c4af205b45\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\917de9b5e52100e46114c1c4af205b45\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\3ce80d1bb52247f9fecc4ee691e27d39\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\3ce80d1bb52247f9fecc4ee691e27d39\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\56cc54940fc7a75c839f0e5da8eb78ea\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\56cc54940fc7a75c839f0e5da8eb78ea\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\707db9e50e06f5dcd33eb11bf41e72a3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\707db9e50e06f5dcd33eb11bf41e72a3\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite-license:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-license-11.8.0.aar\3b2c1a3d32e6ca6302f6faa68e7e2f0c\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-ads-lite-license:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-license-11.8.0.aar\3b2c1a3d32e6ca6302f6faa68e7e2f0c\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\63d0c2f722846cc6f91afa195466215a\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\63d0c2f722846cc6f91afa195466215a\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-gass-license:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-gass-license-11.8.0.aar\60823b26eecb267ece9b8926926b1b38\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-gass-license:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-gass-license-11.8.0.aar\60823b26eecb267ece9b8926926b1b38\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.8.0.aar\634b41f01c3cad65973e8cbfb92b6459\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.8.0.aar\634b41f01c3cad65973e8cbfb92b6459\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\4b1572ffe24df35abf44dc87578546b0\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\4b1572ffe24df35abf44dc87578546b0\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics-license:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-analytics-license-11.8.0.aar\10762a201f479f3a0e9f6fb3bff5aa39\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics-license:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-analytics-license-11.8.0.aar\10762a201f479f3a0e9f6fb3bff5aa39\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-common-license:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-common-license-11.8.0.aar\011b6a8d3dc5deac48450bbbae9901ee\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-common-license:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-common-license-11.8.0.aar\011b6a8d3dc5deac48450bbbae9901ee\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-license-11.8.0.aar\8626bab6467b4a0d9ad36fa4326e3390\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-license-11.8.0.aar\8626bab6467b4a0d9ad36fa4326e3390\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-iid-license:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-11.8.0.aar\81fb7dd2d3ce8c8d2750944d088b3c46\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-iid-license:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-11.8.0.aar\81fb7dd2d3ce8c8d2750944d088b3c46\AndroidManifest.xml:4:5-43
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\9a948f06ba52483293b10f490483e7eb\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\9a948f06ba52483293b10f490483e7eb\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\9a50e3698a003473433290aee0c83f68\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\9a50e3698a003473433290aee0c83f68\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\797dc0db89ed24fe279d96628cf54719\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\797dc0db89ed24fe279d96628cf54719\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\08830fdaeab4658bc1ac17dff5c31e9e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\08830fdaeab4658bc1ac17dff5c31e9e\AndroidManifest.xml:20:5-44
+INJECTED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml
+INJECTED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.google.android.gms:play-services-ads:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-ads-11.8.0.aar\06828bbc2aaa02b993c1a0bd6e7eec2b\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml
+		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml
+		INJECTED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml
+		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml
+		INJECTED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.8.0.aar\b9409295e4dc83ef24cc2e880efc2ea2\AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.8.0.aar\b9409295e4dc83ef24cc2e880efc2ea2\AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.8.0.aar\b9409295e4dc83ef24cc2e880efc2ea2\AndroidManifest.xml:28:9-32
+meta-data#android.support.VERSION
+ADDED from [com.android.support:cardview-v7:26.0.0-alpha1] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.0.0-alpha1.aar\0a3d27cf9f16f04fdc639fc80512daf1\AndroidManifest.xml:22:5-24:41
+	android:value
+		ADDED from [com.android.support:cardview-v7:26.0.0-alpha1] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.0.0-alpha1.aar\0a3d27cf9f16f04fdc639fc80512daf1\AndroidManifest.xml:24:9-38
+	android:name
+		ADDED from [com.android.support:cardview-v7:26.0.0-alpha1] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.0.0-alpha1.aar\0a3d27cf9f16f04fdc639fc80512daf1\AndroidManifest.xml:23:9-47
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.8.0.aar\948c315263c08a4fb110341e232d623f\AndroidManifest.xml:29:9-33:64
+	android:exported
+		ADDED from [com.google.android.gms:play-services-ads-lite:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.8.0.aar\948c315263c08a4fb110341e232d623f\AndroidManifest.xml:32:13-37
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads-lite:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.8.0.aar\948c315263c08a4fb110341e232d623f\AndroidManifest.xml:31:13-122
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.8.0.aar\948c315263c08a4fb110341e232d623f\AndroidManifest.xml:33:13-61
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.8.0.aar\948c315263c08a4fb110341e232d623f\AndroidManifest.xml:30:13-65
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\c8dfdc4dc2179de2e9cde172b1c1b780\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\c8dfdc4dc2179de2e9cde172b1c1b780\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\c8dfdc4dc2179de2e9cde172b1c1b780\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\c8dfdc4dc2179de2e9cde172b1c1b780\AndroidManifest.xml:24:13-79
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\26f3e8ed2ec309aa0300878b553c3a5e\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.8.0.aar\9d4441d7ef91c43f65f674d87a059be5\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.8.0.aar\9d4441d7ef91c43f65f674d87a059be5\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\294b8b4ee7796c31ac0d56c8c18cf0cb\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\294b8b4ee7796c31ac0d56c8c18cf0cb\AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\26f3e8ed2ec309aa0300878b553c3a5e\AndroidManifest.xml:25:22-65
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\26f3e8ed2ec309aa0300878b553c3a5e\AndroidManifest.xml:28:9-32:20
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.8.0.aar\9d4441d7ef91c43f65f674d87a059be5\AndroidManifest.xml:28:9-32:20
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.8.0.aar\9d4441d7ef91c43f65f674d87a059be5\AndroidManifest.xml:28:9-32:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\26f3e8ed2ec309aa0300878b553c3a5e\AndroidManifest.xml:30:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\26f3e8ed2ec309aa0300878b553c3a5e\AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\26f3e8ed2ec309aa0300878b553c3a5e\AndroidManifest.xml:29:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\26f3e8ed2ec309aa0300878b553c3a5e\AndroidManifest.xml:33:9-41:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\26f3e8ed2ec309aa0300878b553c3a5e\AndroidManifest.xml:35:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\26f3e8ed2ec309aa0300878b553c3a5e\AndroidManifest.xml:36:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\26f3e8ed2ec309aa0300878b553c3a5e\AndroidManifest.xml:37:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\26f3e8ed2ec309aa0300878b553c3a5e\AndroidManifest.xml:34:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\26f3e8ed2ec309aa0300878b553c3a5e\AndroidManifest.xml:38:13-40:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\26f3e8ed2ec309aa0300878b553c3a5e\AndroidManifest.xml:39:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\26f3e8ed2ec309aa0300878b553c3a5e\AndroidManifest.xml:39:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\26f3e8ed2ec309aa0300878b553c3a5e\AndroidManifest.xml:43:9-46:40
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.8.0.aar\9d4441d7ef91c43f65f674d87a059be5\AndroidManifest.xml:34:9-37:40
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.8.0.aar\9d4441d7ef91c43f65f674d87a059be5\AndroidManifest.xml:34:9-37:40
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\26f3e8ed2ec309aa0300878b553c3a5e\AndroidManifest.xml:45:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\26f3e8ed2ec309aa0300878b553c3a5e\AndroidManifest.xml:46:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\26f3e8ed2ec309aa0300878b553c3a5e\AndroidManifest.xml:44:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\26f3e8ed2ec309aa0300878b553c3a5e\AndroidManifest.xml:47:9-51:72
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\26f3e8ed2ec309aa0300878b553c3a5e\AndroidManifest.xml:49:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\26f3e8ed2ec309aa0300878b553c3a5e\AndroidManifest.xml:50:13-37
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\26f3e8ed2ec309aa0300878b553c3a5e\AndroidManifest.xml:51:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\26f3e8ed2ec309aa0300878b553c3a5e\AndroidManifest.xml:48:13-87
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\294b8b4ee7796c31ac0d56c8c18cf0cb\AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\294b8b4ee7796c31ac0d56c8c18cf0cb\AndroidManifest.xml:26:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\294b8b4ee7796c31ac0d56c8c18cf0cb\AndroidManifest.xml:28:5-30:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\294b8b4ee7796c31ac0d56c8c18cf0cb\AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\294b8b4ee7796c31ac0d56c8c18cf0cb\AndroidManifest.xml:29:9-63
+permission#com.example.amiramaulina.gpstrackerapptrial1.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\294b8b4ee7796c31ac0d56c8c18cf0cb\AndroidManifest.xml:28:5-30:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\294b8b4ee7796c31ac0d56c8c18cf0cb\AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\294b8b4ee7796c31ac0d56c8c18cf0cb\AndroidManifest.xml:29:9-63
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\294b8b4ee7796c31ac0d56c8c18cf0cb\AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\294b8b4ee7796c31ac0d56c8c18cf0cb\AndroidManifest.xml:32:22-76
+uses-permission#com.example.amiramaulina.gpstrackerapptrial1.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\294b8b4ee7796c31ac0d56c8c18cf0cb\AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\294b8b4ee7796c31ac0d56c8c18cf0cb\AndroidManifest.xml:32:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\294b8b4ee7796c31ac0d56c8c18cf0cb\AndroidManifest.xml:35:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\294b8b4ee7796c31ac0d56c8c18cf0cb\AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\294b8b4ee7796c31ac0d56c8c18cf0cb\AndroidManifest.xml:38:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\294b8b4ee7796c31ac0d56c8c18cf0cb\AndroidManifest.xml:36:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:${applicationId}
+ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\294b8b4ee7796c31ac0d56c8c18cf0cb\AndroidManifest.xml:39:13-43:29
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:com.example.amiramaulina.gpstrackerapptrial1
+ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\294b8b4ee7796c31ac0d56c8c18cf0cb\AndroidManifest.xml:39:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\294b8b4ee7796c31ac0d56c8c18cf0cb\AndroidManifest.xml:40:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\294b8b4ee7796c31ac0d56c8c18cf0cb\AndroidManifest.xml:40:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\294b8b4ee7796c31ac0d56c8c18cf0cb\AndroidManifest.xml:42:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\294b8b4ee7796c31ac0d56c8c18cf0cb\AndroidManifest.xml:42:27-58
+category#com.example.amiramaulina.gpstrackerapptrial1
+ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\294b8b4ee7796c31ac0d56c8c18cf0cb\AndroidManifest.xml:42:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\294b8b4ee7796c31ac0d56c8c18cf0cb\AndroidManifest.xml:42:27-58
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\294b8b4ee7796c31ac0d56c8c18cf0cb\AndroidManifest.xml:50:9-56:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\294b8b4ee7796c31ac0d56c8c18cf0cb\AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\294b8b4ee7796c31ac0d56c8c18cf0cb\AndroidManifest.xml:51:13-77
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\294b8b4ee7796c31ac0d56c8c18cf0cb\AndroidManifest.xml:53:13-55:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\294b8b4ee7796c31ac0d56c8c18cf0cb\AndroidManifest.xml:53:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\294b8b4ee7796c31ac0d56c8c18cf0cb\AndroidManifest.xml:54:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\294b8b4ee7796c31ac0d56c8c18cf0cb\AndroidManifest.xml:54:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-common-11.8.0.aar\da49c7e471c7d929aeefc73f23288322\AndroidManifest.xml:8:9-12:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-common-11.8.0.aar\da49c7e471c7d929aeefc73f23288322\AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-common-11.8.0.aar\da49c7e471c7d929aeefc73f23288322\AndroidManifest.xml:11:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-common-11.8.0.aar\da49c7e471c7d929aeefc73f23288322\AndroidManifest.xml:12:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-common-11.8.0.aar\da49c7e471c7d929aeefc73f23288322\AndroidManifest.xml:9:13-77

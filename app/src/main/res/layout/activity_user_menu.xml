@@ -1,0 +1,82 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/usermenu"
+    tools:context="com.example.amiramaulina.gpstrackerapptrial1.MenuActivityUser">
+
+    <Button
+        android:id="@+id/btnJoinCircle"
+        android:layout_width="268dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="632dp"
+        android:layout_marginBottom="-10dp"
+        android:background="@android:color/transparent"
+        android:onClick="gotoLocation" />
+
+    <Button
+        android:id="@+id/btnMyCircle"
+        android:layout_width="match_parent"
+        android:layout_height="102dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="223dp"
+        android:background="@android:color/transparent"
+        android:onClick="gotoHRStatistics"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="178dp" />
+
+    <Button
+        android:id="@+id/btnSignOut"
+        android:layout_width="match_parent"
+        android:layout_height="108dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="268dp"
+        android:background="@android:color/transparent"
+        android:onClick="gotoFallHistory"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="127dp"
+        tools:layout_editor_absoluteY="273dp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="408dp"
+        android:layout_height="95dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginBottom="133dp"
+        android:background="@android:color/transparent"
+        android:onClick="gotoHRStateHistory"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/ts1"
+        android:layout_width="206dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/ts2"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="247dp"
+        android:textColor="#CBE9D7" />
+
+    <TextView
+        android:id="@+id/ts2"
+        android:layout_width="206dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="125dp"
+        android:textColor="#CBE9D7" />
+
+
+</RelativeLayout>
