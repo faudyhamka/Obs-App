@@ -70,34 +70,8 @@ public class LiveMapActivity extends AppCompatActivity implements OnMapReadyCall
     }
 
     @Override
-    public void onMapReady(GoogleMap googleMap) {
-        mMap = googleMap;
-
-        mMap.setInfoWindowAdapter(new GoogleMap.InfoWindowAdapter() {
-            @Override
-            public View getInfoWindow(Marker marker) {
-                return null;
-            }
-
-            @Override
-            public View getInfoContents(Marker marker) {
-                View row = getLayoutInflater().inflate(R.layout.custom_snippet,null);
-                TextView nameTxt = row.findViewById(R.id.snippetName);
-                TextView dateTxt = row.findViewById(R.id.snippetDate);
-                nameTxt.setText(name);
-                CircleImageView imageTxt = row.findViewById(R.id.snippetImage);
-                Picasso.with(getApplicationContext()).load(Image).placeholder(R.drawable.defaultprofile).into(imageTxt);
-                return row;
-            }
-        });
-        LatLng1 = new LatLng(Double.parseDouble(latitude),Double.parseDouble(longitude));
-        MarkerOptions optionsnew = new MarkerOptions();
-        optionsnew.position(LatLng1);
-        optionsnew.title(name);
-        optionsnew.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_BLUE));
-
-        marker = mMap.addMarker(optionsnew);
-        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(LatLng1,15));
+    protected void onStart() {
+        super.onStart();
         handler = new Handler();
         handler.postDelayed(new Runnable(){
             public void run(){
@@ -121,6 +95,38 @@ public class LiveMapActivity extends AppCompatActivity implements OnMapReadyCall
                 handler.postDelayed(this, 2000);
             }
         }, 2000);
+    }
+
+    @Override
+    public void onMapReady(GoogleMap googleMap) {
+        mMap = googleMap;
+
+        mMap.setInfoWindowAdapter(new GoogleMap.InfoWindowAdapter() {
+            @Override
+            public View getInfoWindow(Marker marker) {
+                return null;
+            }
+
+            @Override
+            public View getInfoContents(Marker marker) {
+                View row = getLayoutInflater().inflate(R.layout.custom_snippet,null);
+                TextView nameTxt = row.findViewById(R.id.snippetName);
+                TextView dateTxt = row.findViewById(R.id.snippetDate);
+                nameTxt.setText(name);
+                //dateTxt.setText(getDate());
+                CircleImageView imageTxt = row.findViewById(R.id.snippetImage);
+                Picasso.with(getApplicationContext()).load(Image).placeholder(R.drawable.defaultprofile).into(imageTxt);
+                return row;
+            }
+        });
+        LatLng1 = new LatLng(Double.parseDouble(latitude),Double.parseDouble(longitude));
+        MarkerOptions optionsnew = new MarkerOptions();
+        optionsnew.position(LatLng1);
+        optionsnew.title(name);
+        optionsnew.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_BLUE));
+
+        marker = mMap.addMarker(optionsnew);
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(LatLng1,15));
     }
 
     @Override

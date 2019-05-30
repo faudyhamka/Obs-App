@@ -92,9 +92,9 @@ public class MenuActivityUser extends AppCompatActivity {
                         hr.setText(hstateValueTimestamp);
                     }
                 }
-                handler.postDelayed(this, 500);
+                handler.postDelayed(this, 1000);
             }
-        }, 500);
+        }, 1000);
     }
 
     public void GETA(String URLA) {
