@@ -49,7 +49,6 @@ public class LiveMapActivity extends AppCompatActivity implements OnMapReadyCall
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_live_map);
-        queue = Volley.newRequestQueue(this);
 
         toolbar = findViewById(R.id.toolbar22);
         setSupportActionBar(toolbar);
@@ -75,6 +74,7 @@ public class LiveMapActivity extends AppCompatActivity implements OnMapReadyCall
         handler = new Handler();
         handler.postDelayed(new Runnable(){
             public void run(){
+                queue = Volley.newRequestQueue(LiveMapActivity.this);
                 JsonObjectRequest request = new JsonObjectRequest(Request.Method.GET, "http://"+ip+".ngrok.io/location2", null,
                         new Response.Listener<JSONObject>() {
                             @Override
@@ -92,9 +92,9 @@ public class LiveMapActivity extends AppCompatActivity implements OnMapReadyCall
                 });
                 request.setTag("Map");
                 queue.add(request);
-                handler.postDelayed(this, 2000);
+                handler.postDelayed(this, 1000);
             }
-        }, 2000);
+        }, 1000);
     }
 
     @Override
