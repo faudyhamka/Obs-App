@@ -1,10 +1,11 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:2:1-65:12
-INJECTED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:2:1-65:12
-INJECTED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:2:1-65:12
-INJECTED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:2:1-65:12
+ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:2:1-68:12
+INJECTED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:2:1-68:12
+INJECTED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:2:1-68:12
+INJECTED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:2:1-68:12
 MERGED from [com.google.android.gms:play-services-ads:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-ads-11.8.0.aar\06828bbc2aaa02b993c1a0bd6e7eec2b\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\f125e4f71e97d1238a74c17c1c50cef3\AndroidManifest.xml:2:1-11:12
 MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\5054704f96c7eb211fcb911bb937b2a1\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.gms:play-services-maps:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.8.0.aar\b9409295e4dc83ef24cc2e880efc2ea2\AndroidManifest.xml:17:1-32:12
 MERGED from [com.google.android.gms:play-services-location:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-location-11.8.0.aar\16e861d1a81c1b5f8673396c50a2967c\AndroidManifest.xml:2:1-9:12
@@ -15,7 +16,6 @@ MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Faudy Hamka\.grad
 MERGED from [com.android.support:cardview-v7:26.0.0-alpha1] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.0.0-alpha1.aar\0a3d27cf9f16f04fdc639fc80512daf1\AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:recyclerview-v7:27.1.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.0.aar\37f40e97c56e7cfd9a4364ac773c606b\AndroidManifest.xml:17:1-22:12
 MERGED from [com.github.markushi:circlebutton:1.1] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\circlebutton-1.1.aar\e482990cb6a31fbfb1e94e2bdd46685a\AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\b0fcab4faa0c145fa15ab21599f6ee9f\AndroidManifest.xml:2:1-11:12
 MERGED from [com.jjoe64:graphview:4.2.2] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\graphview-4.2.2.aar\e7ce16e56b58ae57917b7972f77de5a0\AndroidManifest.xml:2:1-14:12
 MERGED from [com.android.volley:volley:1.1.1] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\72e37a02371781335a3d9fbd13ac31c7\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.firebase:firebase-core:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-core-11.8.0.aar\8787ca8900e9bd05a4b012797bb20885\AndroidManifest.xml:2:1-6:12
@@ -54,20 +54,20 @@ MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Faudy Hamka\.g
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\9a50e3698a003473433290aee0c83f68\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\797dc0db89ed24fe279d96628cf54719\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\08830fdaeab4658bc1ac17dff5c31e9e\AndroidManifest.xml:17:1-22:12
-INJECTED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:2:1-65:12
-INJECTED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:2:1-65:12
-INJECTED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:2:1-65:12
+INJECTED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:2:1-68:12
+INJECTED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:2:1-68:12
+INJECTED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:2:1-68:12
 	package
 		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:3:5-59
 		INJECTED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml
 		INJECTED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml
-		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:2:1-65:12
+		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:2:1-68:12
 		INJECTED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml
-		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:2:1-65:12
+		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:2:1-68:12
 		INJECTED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:2:11-69
@@ -107,12 +107,22 @@ uses-permission#android.permission.READ_EXTERNAL_STORAGE
 ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:13:5-80
 	android:name
 		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:13:22-77
-uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:14:5-81
+uses-permission#android.permission.SEND_SMS
+ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:14:5-67
 	android:name
-		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:14:22-78
+		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:14:22-64
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:15:5-70
+	android:name
+		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:15:22-67
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:16:5-81
+	android:name
+		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:16:22-78
 application
-ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:16:5-58:19
+ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:18:5-61:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\f125e4f71e97d1238a74c17c1c50cef3\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\f125e4f71e97d1238a74c17c1c50cef3\AndroidManifest.xml:9:5-20
 MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\5054704f96c7eb211fcb911bb937b2a1\AndroidManifest.xml:9:5-20
 MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\5054704f96c7eb211fcb911bb937b2a1\AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.gms:play-services-maps:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.8.0.aar\b9409295e4dc83ef24cc2e880efc2ea2\AndroidManifest.xml:30:5-20
@@ -125,8 +135,6 @@ MERGED from [com.android.support:cardview-v7:26.0.0-alpha1] C:\Users\Faudy Hamka
 MERGED from [com.android.support:cardview-v7:26.0.0-alpha1] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.0.0-alpha1.aar\0a3d27cf9f16f04fdc639fc80512daf1\AndroidManifest.xml:26:5-20
 MERGED from [com.github.markushi:circlebutton:1.1] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\circlebutton-1.1.aar\e482990cb6a31fbfb1e94e2bdd46685a\AndroidManifest.xml:9:5-20
 MERGED from [com.github.markushi:circlebutton:1.1] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\circlebutton-1.1.aar\e482990cb6a31fbfb1e94e2bdd46685a\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\b0fcab4faa0c145fa15ab21599f6ee9f\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\b0fcab4faa0c145fa15ab21599f6ee9f\AndroidManifest.xml:9:5-20
 MERGED from [com.jjoe64:graphview:4.2.2] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\graphview-4.2.2.aar\e7ce16e56b58ae57917b7972f77de5a0\AndroidManifest.xml:11:5-12:19
 MERGED from [com.jjoe64:graphview:4.2.2] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\graphview-4.2.2.aar\e7ce16e56b58ae57917b7972f77de5a0\AndroidManifest.xml:11:5-12:19
 MERGED from [com.android.volley:volley:1.1.1] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\72e37a02371781335a3d9fbd13ac31c7\AndroidManifest.xml:9:5-20
@@ -176,87 +184,93 @@ MERGED from [com.google.firebase:firebase-analytics-impl-license:11.8.0] C:\User
 MERGED from [com.google.firebase:firebase-iid-license:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-11.8.0.aar\81fb7dd2d3ce8c8d2750944d088b3c46\AndroidManifest.xml:5:5-20
 MERGED from [com.google.firebase:firebase-iid-license:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-11.8.0.aar\81fb7dd2d3ce8c8d2750944d088b3c46\AndroidManifest.xml:5:5-20
 	android:supportsRtl
-		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:20:9-35
+		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:22:9-35
 	android:label
-		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:19:9-41
+		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:21:9-41
 	android:icon
-		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:18:9-43
+		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:20:9-43
 	android:allowBackup
-		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:17:9-35
+		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:19:9-35
 	android:theme
-		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:21:9-40
+		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:23:9-40
 meta-data#com.google.android.geo.API_KEY
-ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:22:9-24:55
+ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:24:9-26:55
 	android:value
-		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:24:13-52
+		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:26:13-52
 	android:name
-		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:23:13-58
+		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:25:13-58
 activity#com.example.amiramaulina.gpstrackerapptrial1.MainActivity
-ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:26:9-32:20
+ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:28:9-34:20
 	android:name
-		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:26:19-47
+		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:28:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:27:13-31:29
+ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:29:13-33:29
 action#android.intent.action.MAIN
-ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:28:17-69
+ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:30:17-69
 	android:name
-		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:28:25-66
+		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:30:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:30:17-77
+ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:32:17-77
 	android:name
-		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:30:27-74
+		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:32:27-74
 activity#com.example.amiramaulina.gpstrackerapptrial1.IPName
-ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:41:9-44
+ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:43:9-44
 	android:name
-		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:41:19-41
+		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:43:19-41
 activity#com.example.amiramaulina.gpstrackerapptrial1.LiveMapActivity
-ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:42:9-53
+ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:44:9-53
 	android:name
-		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:42:19-50
+		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:44:19-50
 activity#com.example.amiramaulina.gpstrackerapptrial1.FStateHistory
-ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:43:9-51
+ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:45:9-51
 	android:name
-		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:43:19-48
+		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:45:19-48
 activity#com.example.amiramaulina.gpstrackerapptrial1.HRStatistics
-ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:44:9-50
+ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:46:9-50
 	android:name
-		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:44:19-47
+		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:46:19-47
 activity#com.example.amiramaulina.gpstrackerapptrial1.HRStateHistory
-ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:45:9-52
+ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:47:9-52
 	android:name
-		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:45:19-49
+		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:47:19-49
+activity#com.example.amiramaulina.gpstrackerapptrial1.ENumber
+ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:48:9-45
+	android:name
+		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:48:19-42
 meta-data#com.google.android.gms.version
-ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:47:9-49:69
+ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:50:9-52:69
 MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\d49b80986255f9580604b243c1933097\AndroidManifest.xml:23:9-25:69
 MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\d49b80986255f9580604b243c1933097\AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:49:13-66
+		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:52:13-66
 	android:name
-		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:48:13-58
+		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:51:13-58
 meta-data#preloaded_fonts
-ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:50:9-52:57
+ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:53:9-55:57
 	android:resource
-		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:52:13-54
+		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:55:13-54
 	android:name
-		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:51:13-43
+		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:54:13-43
 activity#com.example.amiramaulina.gpstrackerapptrial1.MenuActivityUser
-ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:54:9-57:47
+ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:57:9-60:47
 	android:label
-		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:56:13-46
+		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:59:13-46
 	android:theme
-		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:57:13-44
+		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:60:13-44
 	android:name
-		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:55:13-45
+		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:58:13-45
 uses-permission#android.permission.WRITE_INTERNAL_STORAGE
-ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:64:5-81
+ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:67:5-81
 	android:name
-		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:64:22-78
+		ADDED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml:67:22-78
 uses-sdk
 INJECTED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml
 INJECTED from D:\STEI\SMT 8\TA YA ALLAH\ObserverApp-FIX-3005-master\app\src\main\AndroidManifest.xml
 MERGED from [com.google.android.gms:play-services-ads:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-ads-11.8.0.aar\06828bbc2aaa02b993c1a0bd6e7eec2b\AndroidManifest.xml:21:5-23:62
 MERGED from [com.google.android.gms:play-services-ads:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-ads-11.8.0.aar\06828bbc2aaa02b993c1a0bd6e7eec2b\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\f125e4f71e97d1238a74c17c1c50cef3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\f125e4f71e97d1238a74c17c1c50cef3\AndroidManifest.xml:5:5-7:41
 MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\5054704f96c7eb211fcb911bb937b2a1\AndroidManifest.xml:5:5-7:41
 MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\5054704f96c7eb211fcb911bb937b2a1\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.gms:play-services-maps:11.8.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.8.0.aar\b9409295e4dc83ef24cc2e880efc2ea2\AndroidManifest.xml:20:5-44
@@ -277,8 +291,6 @@ MERGED from [com.android.support:recyclerview-v7:27.1.0] C:\Users\Faudy Hamka\.g
 MERGED from [com.android.support:recyclerview-v7:27.1.0] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.0.aar\37f40e97c56e7cfd9a4364ac773c606b\AndroidManifest.xml:20:5-44
 MERGED from [com.github.markushi:circlebutton:1.1] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\circlebutton-1.1.aar\e482990cb6a31fbfb1e94e2bdd46685a\AndroidManifest.xml:7:5-44
 MERGED from [com.github.markushi:circlebutton:1.1] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\circlebutton-1.1.aar\e482990cb6a31fbfb1e94e2bdd46685a\AndroidManifest.xml:7:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\b0fcab4faa0c145fa15ab21599f6ee9f\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\b0fcab4faa0c145fa15ab21599f6ee9f\AndroidManifest.xml:5:5-7:41
 MERGED from [com.jjoe64:graphview:4.2.2] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\graphview-4.2.2.aar\e7ce16e56b58ae57917b7972f77de5a0\AndroidManifest.xml:7:5-9:41
 MERGED from [com.jjoe64:graphview:4.2.2] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\graphview-4.2.2.aar\e7ce16e56b58ae57917b7972f77de5a0\AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.volley:volley:1.1.1] C:\Users\Faudy Hamka\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\72e37a02371781335a3d9fbd13ac31c7\AndroidManifest.xml:7:5-43

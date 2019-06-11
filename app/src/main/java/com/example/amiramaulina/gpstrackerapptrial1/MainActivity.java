@@ -39,4 +39,9 @@ public class MainActivity extends AppCompatActivity {
         Intent myIntent = new Intent(MainActivity.this, IPName.class);
         startActivity(myIntent);
     }
+
+    public void goToENum(View view) {
+        Intent myIntent = new Intent(MainActivity.this, ENumber.class);
+        startActivity(myIntent);
+    }
 }

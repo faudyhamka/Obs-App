@@ -1,5 +1,6 @@
 package com.example.amiramaulina.gpstrackerapptrial1;
 
+import android.Manifest;
 import android.app.Activity;
 import android.app.Notification;
 import android.app.NotificationManager;
@@ -7,13 +8,16 @@ import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.content.pm.PackageManager;
 import android.os.Handler;
+import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.NotificationCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.View;
+import android.telephony.SmsManager;
 import android.widget.CompoundButton;
 import android.widget.TextView;
 
@@ -31,31 +35,39 @@ import org.json.JSONObject;
 
 public class MenuActivityUser extends AppCompatActivity {
     public static final String mypreference = "My_Pref";
+    public static final String myPreference = "my__pref";
     public static final String inputIP = "input_IP";
     public static final String inputName = "input_Name";
     Toolbar toolbar;
     String latitude,longitude,name,ip;
     String fallstateTimestamp, hstateValueTimestamp;
     String fallcheck, hrcheck;
-    Configuration conf = new Configuration();
     Handler handler;
     RequestQueue queue;
     TextView f, hr;
-    SharedPreferences sharedpreferences;
+    SharedPreferences sharedpreferences, sharedPreferences;
+    public String eN1, eN2, eN3, eN4, eN5;
+    private final int MY_PERMISSIONS_REQUEST_SEND_SMS = 1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user_menu);
         queue = Volley.newRequestQueue(this);
-
         f = (TextView) findViewById(R.id.ts1);
         hr = (TextView) findViewById(R.id.ts2);
 
         sharedpreferences = getSharedPreferences(mypreference,
                 Context.MODE_PRIVATE);
+        sharedPreferences = getSharedPreferences(myPreference,
+                Context.MODE_PRIVATE);
         ip = sharedpreferences.getString(inputIP, "");
         name = sharedpreferences.getString(inputName, "");
+        eN1 = sharedPreferences.getString("number0", "");
+        eN2 = sharedPreferences.getString("number1", "");
+        eN3 = sharedPreferences.getString("number2", "");
+        eN4 = sharedPreferences.getString("number3", "");
+        eN5 = sharedPreferences.getString("number4", "");
     }
 
     @Override
@@ -64,9 +76,9 @@ public class MenuActivityUser extends AppCompatActivity {
         handler = new Handler();
         handler.postDelayed(new Runnable(){
             public void run(){
-                GETB("http://"+ip+".ngrok.io/fstate2");
-                GETC("http://"+ip+".ngrok.io/hstate2");
-                GETA("http://"+ip+".ngrok.io/location2");
+                GETB("http://"+ip+ ":3000/fstate2");
+                GETC("http://"+ip+ ":3000/hstate2");
+                GETA("http://"+ip+ ":3000/location2");
                 if (fallstateTimestamp != null) {
                     if (fallcheck == null) {
                         fallcheck = fallstateTimestamp;
@@ -78,6 +90,26 @@ public class MenuActivityUser extends AppCompatActivity {
                         showNotificationFall();
                         fallcheck = fallstateTimestamp;
                         f.setText(fallstateTimestamp);
+                        if (ActivityCompat.checkSelfPermission(MenuActivityUser.this, android.Manifest.permission.SEND_SMS) != PackageManager.PERMISSION_GRANTED) {
+                            ActivityCompat.requestPermissions(MenuActivityUser.this,
+                                    new String[]{Manifest.permission.SEND_SMS}, MY_PERMISSIONS_REQUEST_SEND_SMS);
+                        } else {
+                            SmsManager sms = SmsManager.getDefault();
+                            String message = "FALL DETECTED! A fall has been detected on your family member, open your Ambient Assisted Living app to see their location!";
+
+                            Log.i("family number", "fall familynumber size");
+                            Log.i("family number", "fall familynumber value ");
+                            if ((eN1 != null) && (eN1.length() > 3)){
+                                sms.sendTextMessage(eN1, null, message, null, null);}
+                            if ((eN2 != null) && (eN2.length() > 3)){
+                                sms.sendTextMessage(eN2, null, message, null, null);}
+                            if ((eN3 != null) && (eN3.length() > 3)){
+                                sms.sendTextMessage(eN3, null, message, null, null);}
+                            if ((eN4 != null) && (eN4.length() > 3)){
+                                sms.sendTextMessage(eN4, null, message, null, null);}
+                            if ((eN5 != null) && (eN5.length() > 3)){
+                                sms.sendTextMessage(eN5, null, message, null, null);}
+                        }
                     }
                 }
                 if (hstateValueTimestamp != null) {
@@ -89,7 +121,28 @@ public class MenuActivityUser extends AppCompatActivity {
                         Log.i("tes", "tes hrcheck akhir " + hrcheck);
                         Log.i("tes", "tes hr timestamp " + hstateValueTimestamp);
                         showNotificationHR();
+                        hrcheck = hstateValueTimestamp;
                         hr.setText(hstateValueTimestamp);
+                        if (ActivityCompat.checkSelfPermission(MenuActivityUser.this, android.Manifest.permission.SEND_SMS) != PackageManager.PERMISSION_GRANTED) {
+                            ActivityCompat.requestPermissions(MenuActivityUser.this,
+                                    new String[]{Manifest.permission.SEND_SMS}, MY_PERMISSIONS_REQUEST_SEND_SMS);
+                        } else {
+                            SmsManager sms = SmsManager.getDefault();
+                            String message = "FALL DETECTED! A fall has been detected on your family member, open your Ambient Assisted Living app to see their location!";
+
+                            Log.i("family number", "fall familynumber size");
+                            Log.i("family number", "fall familynumber value ");
+                            if ((eN1 != null) && (eN1.length() > 3)){
+                                sms.sendTextMessage(eN1, null, message, null, null);}
+                            if ((eN2 != null) && (eN2.length() > 3)){
+                                sms.sendTextMessage(eN2, null, message, null, null);}
+                            if ((eN3 != null) && (eN3.length() > 3)){
+                                sms.sendTextMessage(eN3, null, message, null, null);}
+                            if ((eN4 != null) && (eN4.length() > 3)){
+                                sms.sendTextMessage(eN4, null, message, null, null);}
+                            if ((eN5 != null) && (eN5.length() > 3)){
+                                sms.sendTextMessage(eN5, null, message, null, null);}
+                        }
                     }
                 }
                 handler.postDelayed(this, 1000);
@@ -229,6 +282,7 @@ public class MenuActivityUser extends AppCompatActivity {
         myIntent.putExtra("ip", ip);
         startActivity(myIntent);
     }
+
 
     @Override
     protected void onStop() {

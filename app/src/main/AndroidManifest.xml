@@ -11,6 +11,8 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
@@ -43,6 +45,7 @@
         <activity android:name=".FStateHistory" />
         <activity android:name=".HRStatistics" />
         <activity android:name=".HRStateHistory" />
+        <activity android:name=".ENumber" />
 
         <meta-data
             android:name="com.google.android.gms.version"

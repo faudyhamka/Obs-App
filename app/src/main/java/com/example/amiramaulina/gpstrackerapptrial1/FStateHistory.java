@@ -32,7 +32,6 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 
 public class FStateHistory extends AppCompatActivity{
-    Configuration conf = new Configuration();
     String name, ip, fallstateTimestamp;
     ArrayList<String> array10 = new ArrayList<>(); //array untuk fallstateTimeStamp
     PointsGraphSeries<DataPoint> series = new PointsGraphSeries<>();
@@ -67,7 +66,7 @@ public class FStateHistory extends AppCompatActivity{
             ip = intent.getStringExtra("ip");}
 
         queue = Volley.newRequestQueue(this);
-        JsonObjectRequest request = new JsonObjectRequest(Request.Method.GET, "http://"+ip+".ngrok.io/fstate1", null,
+        JsonObjectRequest request = new JsonObjectRequest(Request.Method.GET, "http://"+ip+ ":3000/fstate1", null,
                 new Response.Listener<JSONObject>() {
                     @Override
                     public void onResponse(JSONObject response) {

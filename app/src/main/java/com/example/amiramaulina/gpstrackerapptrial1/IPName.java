@@ -17,7 +17,6 @@ public class IPName extends AppCompatActivity {
     public static final String inputIP = "input_IP";
     public static final String inputName = "input_Name";
     EditText IP, Name;
-    private Toolbar mTopToolbar;
     Button btnStore;
     SharedPreferences sharedpreferences;
 
@@ -62,7 +61,7 @@ public class IPName extends AppCompatActivity {
                 } else if ((IP.getText().toString().length() == 0) && (Name.getText().toString().length() != 0)) {
                     Toast.makeText(getApplicationContext(), "Please fill your IP Address", Toast.LENGTH_SHORT).show();
                 } else if ((Name.getText().toString().length() == 0) && (IP.getText().toString().length() != 0)) {
-                    Toast.makeText(getApplicationContext(), "Please fill your Age Address", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), "Please fill your Name", Toast.LENGTH_SHORT).show();
                 } else {
                     sharedpreferences = getSharedPreferences(mypreference,
                             Context.MODE_PRIVATE);

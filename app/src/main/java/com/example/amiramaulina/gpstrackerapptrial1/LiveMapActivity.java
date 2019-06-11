@@ -29,7 +29,10 @@ import com.squareup.picasso.Picasso;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
+
 import de.hdodenhof.circleimageview.CircleImageView;
 
 public class LiveMapActivity extends AppCompatActivity implements OnMapReadyCallback {
@@ -38,9 +41,9 @@ public class LiveMapActivity extends AppCompatActivity implements OnMapReadyCall
     String latitude,longitude,name,ip,Image;
     Toolbar toolbar;
     Marker marker;
-    Configuration conf = new Configuration();
     Handler handler;
     RequestQueue queue;
+    Calendar calendar; SimpleDateFormat simpleDateFormat;
 
     ArrayList<String> mKeys;
     MarkerOptions myOptions;
@@ -75,7 +78,7 @@ public class LiveMapActivity extends AppCompatActivity implements OnMapReadyCall
         handler.postDelayed(new Runnable(){
             public void run(){
                 queue = Volley.newRequestQueue(LiveMapActivity.this);
-                JsonObjectRequest request = new JsonObjectRequest(Request.Method.GET, "http://"+ip+".ngrok.io/location2", null,
+                JsonObjectRequest request = new JsonObjectRequest(Request.Method.GET, "http://"+ip+ ":3000/location2", null,
                         new Response.Listener<JSONObject>() {
                             @Override
                             public void onResponse(JSONObject response) {
@@ -92,9 +95,9 @@ public class LiveMapActivity extends AppCompatActivity implements OnMapReadyCall
                 });
                 request.setTag("Map");
                 queue.add(request);
-                handler.postDelayed(this, 1000);
+                handler.postDelayed(this, 2000);
             }
-        }, 1000);
+        }, 2000);
     }
 
     @Override
@@ -113,7 +116,10 @@ public class LiveMapActivity extends AppCompatActivity implements OnMapReadyCall
                 TextView nameTxt = row.findViewById(R.id.snippetName);
                 TextView dateTxt = row.findViewById(R.id.snippetDate);
                 nameTxt.setText(name);
-                //dateTxt.setText(getDate());
+                calendar = Calendar.getInstance();
+                simpleDateFormat = new SimpleDateFormat("HH:mm:ss");
+                String e = simpleDateFormat.format(calendar.getTime());
+                dateTxt.setText(e);
                 CircleImageView imageTxt = row.findViewById(R.id.snippetImage);
                 Picasso.with(getApplicationContext()).load(Image).placeholder(R.drawable.defaultprofile).into(imageTxt);
                 return row;

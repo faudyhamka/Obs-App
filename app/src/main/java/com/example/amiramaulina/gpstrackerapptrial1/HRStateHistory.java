@@ -30,7 +30,6 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 
 public class HRStateHistory extends AppCompatActivity {
-    Configuration conf = new Configuration();
     String name, ip, hstateTimestamp;
     ArrayList<String> array10 = new ArrayList<>(); //array untuk hrstateTimestamp
     PointsGraphSeries<DataPoint> series = new PointsGraphSeries<>();
@@ -64,7 +63,7 @@ public class HRStateHistory extends AppCompatActivity {
             ip = intent.getStringExtra("ip");}
 
         queue = Volley.newRequestQueue(this);
-        JsonObjectRequest request = new JsonObjectRequest(Request.Method.GET, "http://"+ip+".ngrok.io/hstate1", null,
+        JsonObjectRequest request = new JsonObjectRequest(Request.Method.GET, "http://"+ip+ ":3000/hstate1", null,
                 new Response.Listener<JSONObject>() {
                     @Override
                     public void onResponse(JSONObject response) {

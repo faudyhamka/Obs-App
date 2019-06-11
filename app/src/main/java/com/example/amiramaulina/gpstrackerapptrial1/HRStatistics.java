@@ -30,7 +30,6 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 
 public class HRStatistics extends AppCompatActivity {
-    Configuration conf = new Configuration();
     String name, ip, hrTime, hrValue;
     ArrayList<String> array10 = new ArrayList<>(); //array untuk hrTimestamp
     LineGraphSeries<DataPoint> series = new LineGraphSeries<DataPoint>();
@@ -64,7 +63,7 @@ public class HRStatistics extends AppCompatActivity {
         ip = intent.getStringExtra("ip");}
 
         queue = Volley.newRequestQueue(this);
-        JsonObjectRequest request = new JsonObjectRequest(Request.Method.GET, "http://"+ip+".ngrok.io/hrate1", null,
+        JsonObjectRequest request = new JsonObjectRequest(Request.Method.GET, "http://"+ip+ ":3000/hrate1", null,
                 new Response.Listener<JSONObject>() {
                     @Override
                     public void onResponse(JSONObject response) {
