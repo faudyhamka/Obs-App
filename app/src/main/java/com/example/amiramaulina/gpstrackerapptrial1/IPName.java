@@ -49,7 +49,7 @@ public class IPName extends AppCompatActivity {
             }
 
         };
-        //IP.setFilters(filters);
+        IP.setFilters(filters);
         Name = (EditText) findViewById(R.id.editName);
         btnStore = (Button) findViewById(R.id.buttStore);
 
