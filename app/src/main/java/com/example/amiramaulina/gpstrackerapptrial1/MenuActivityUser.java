@@ -128,7 +128,7 @@ public class MenuActivityUser extends AppCompatActivity {
                                     new String[]{Manifest.permission.SEND_SMS}, MY_PERMISSIONS_REQUEST_SEND_SMS);
                         } else {
                             SmsManager sms = SmsManager.getDefault();
-                            String message = "FALL DETECTED! A fall has been detected on your family member, open your Ambient Assisted Living app to see their location!";
+                            String message = "HEARTRATE ABNORMALITY DETECTED! A heart rate abnormality on your family member has been detected, open your Ambient Assisted Living app to check their location!";
 
                             Log.i("family number", "fall familynumber size");
                             Log.i("family number", "fall familynumber value ");
