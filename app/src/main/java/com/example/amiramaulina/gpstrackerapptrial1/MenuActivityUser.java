@@ -90,26 +90,6 @@ public class MenuActivityUser extends AppCompatActivity {
                         showNotificationFall();
                         fallcheck = fallstateTimestamp;
                         f.setText(fallstateTimestamp);
-                        if (ActivityCompat.checkSelfPermission(MenuActivityUser.this, android.Manifest.permission.SEND_SMS) != PackageManager.PERMISSION_GRANTED) {
-                            ActivityCompat.requestPermissions(MenuActivityUser.this,
-                                    new String[]{Manifest.permission.SEND_SMS}, MY_PERMISSIONS_REQUEST_SEND_SMS);
-                        } else {
-                            SmsManager sms = SmsManager.getDefault();
-                            String message = "FALL DETECTED! A fall has been detected on your family member, open your Ambient Assisted Living app to see their location!";
-
-                            Log.i("family number", "fall familynumber size");
-                            Log.i("family number", "fall familynumber value ");
-                            if ((eN1 != null) && (eN1.length() > 3)){
-                                sms.sendTextMessage(eN1, null, message, null, null);}
-                            if ((eN2 != null) && (eN2.length() > 3)){
-                                sms.sendTextMessage(eN2, null, message, null, null);}
-                            if ((eN3 != null) && (eN3.length() > 3)){
-                                sms.sendTextMessage(eN3, null, message, null, null);}
-                            if ((eN4 != null) && (eN4.length() > 3)){
-                                sms.sendTextMessage(eN4, null, message, null, null);}
-                            if ((eN5 != null) && (eN5.length() > 3)){
-                                sms.sendTextMessage(eN5, null, message, null, null);}
-                        }
                     }
                 }
                 if (hstateValueTimestamp != null) {
@@ -123,26 +103,6 @@ public class MenuActivityUser extends AppCompatActivity {
                         showNotificationHR();
                         hrcheck = hstateValueTimestamp;
                         hr.setText(hstateValueTimestamp);
-                        if (ActivityCompat.checkSelfPermission(MenuActivityUser.this, android.Manifest.permission.SEND_SMS) != PackageManager.PERMISSION_GRANTED) {
-                            ActivityCompat.requestPermissions(MenuActivityUser.this,
-                                    new String[]{Manifest.permission.SEND_SMS}, MY_PERMISSIONS_REQUEST_SEND_SMS);
-                        } else {
-                            SmsManager sms = SmsManager.getDefault();
-                            String message = "HEARTRATE ABNORMALITY DETECTED! A heart rate abnormality on your family member has been detected, open your Ambient Assisted Living app to check their location!";
-
-                            Log.i("family number", "fall familynumber size");
-                            Log.i("family number", "fall familynumber value ");
-                            if ((eN1 != null) && (eN1.length() > 3)){
-                                sms.sendTextMessage(eN1, null, message, null, null);}
-                            if ((eN2 != null) && (eN2.length() > 3)){
-                                sms.sendTextMessage(eN2, null, message, null, null);}
-                            if ((eN3 != null) && (eN3.length() > 3)){
-                                sms.sendTextMessage(eN3, null, message, null, null);}
-                            if ((eN4 != null) && (eN4.length() > 3)){
-                                sms.sendTextMessage(eN4, null, message, null, null);}
-                            if ((eN5 != null) && (eN5.length() > 3)){
-                                sms.sendTextMessage(eN5, null, message, null, null);}
-                        }
                     }
                 }
                 handler.postDelayed(this, 1000);

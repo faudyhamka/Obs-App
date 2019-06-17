@@ -45,7 +45,6 @@
         <activity android:name=".FStateHistory" />
         <activity android:name=".HRStatistics" />
         <activity android:name=".HRStateHistory" />
-        <activity android:name=".ENumber" />
 
         <meta-data
             android:name="com.google.android.gms.version"

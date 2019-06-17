@@ -75,7 +75,6 @@
         <activity android:name="com.example.amiramaulina.gpstrackerapptrial1.FStateHistory" />
         <activity android:name="com.example.amiramaulina.gpstrackerapptrial1.HRStatistics" />
         <activity android:name="com.example.amiramaulina.gpstrackerapptrial1.HRStateHistory" />
-        <activity android:name="com.example.amiramaulina.gpstrackerapptrial1.ENumber" />
 
         <meta-data
             android:name="com.google.android.gms.version"
