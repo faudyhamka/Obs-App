@@ -20,6 +20,7 @@ import android.view.View;
 import android.telephony.SmsManager;
 import android.widget.CompoundButton;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
@@ -242,7 +243,6 @@ public class MenuActivityUser extends AppCompatActivity {
         myIntent.putExtra("ip", ip);
         startActivity(myIntent);
     }
-
 
     @Override
     protected void onStop() {

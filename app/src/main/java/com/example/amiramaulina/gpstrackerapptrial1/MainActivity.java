@@ -9,6 +9,8 @@ import android.content.SharedPreferences;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
+    private static final int TIME_INTERVAL = 2000; // # milliseconds, desired time passed between two back presses.
+    private long mBackPressed;
     public static final String mypreference = "My_Pref";
     public static final String inputIP = "input_IP";
     public static final String inputName = "input_Name";
@@ -38,5 +40,17 @@ public class MainActivity extends AppCompatActivity {
     public void goToConfig(View view) {
         Intent myIntent = new Intent(MainActivity.this, IPName.class);
         startActivity(myIntent);
+    }
+
+    public void onBackPressed()
+    {
+        if (mBackPressed + TIME_INTERVAL > System.currentTimeMillis())
+        {
+            super.onBackPressed();
+            return;
+        }
+        else { Toast.makeText(getBaseContext(), "Tekan sekali lagi untuk keluar", Toast.LENGTH_SHORT).show(); }
+
+        mBackPressed = System.currentTimeMillis();
     }
 }

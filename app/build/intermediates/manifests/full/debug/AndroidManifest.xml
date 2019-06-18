@@ -8,6 +8,13 @@
         android:minSdkVersion="21"
         android:targetSdkVersion="27" />
 
+    <supports-screens
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
          Google Maps Android API v2, but you must specify either coarse or fine
