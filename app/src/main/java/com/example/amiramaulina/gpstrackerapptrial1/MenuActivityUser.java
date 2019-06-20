@@ -1,37 +1,27 @@
 package com.example.amiramaulina.gpstrackerapptrial1;
 
-import android.Manifest;
-import android.app.Activity;
+
 import android.app.Notification;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.content.pm.PackageManager;
 import android.os.Handler;
-import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.NotificationCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.View;
-import android.telephony.SmsManager;
-import android.widget.CompoundButton;
+import android.widget.ProgressBar;
 import android.widget.TextView;
-import android.widget.Toast;
-
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.Volley;
-import com.google.android.gms.maps.GoogleMap;
-import com.google.android.gms.maps.model.LatLng;
-
-import org.json.JSONException;
 import org.json.JSONObject;
 
 public class MenuActivityUser extends AppCompatActivity {
@@ -48,7 +38,6 @@ public class MenuActivityUser extends AppCompatActivity {
     TextView f, hr;
     SharedPreferences sharedpreferences, sharedPreferences;
     public String eN1, eN2, eN3, eN4, eN5;
-    private final int MY_PERMISSIONS_REQUEST_SEND_SMS = 1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -57,7 +46,6 @@ public class MenuActivityUser extends AppCompatActivity {
         queue = Volley.newRequestQueue(this);
         f = (TextView) findViewById(R.id.ts1);
         hr = (TextView) findViewById(R.id.ts2);
-
         sharedpreferences = getSharedPreferences(mypreference,
                 Context.MODE_PRIVATE);
         sharedPreferences = getSharedPreferences(myPreference,
@@ -73,6 +61,8 @@ public class MenuActivityUser extends AppCompatActivity {
 
     @Override
     protected void onStart() {
+        final ProgressBar pbar = (ProgressBar) findViewById(R.id.pb);
+        pbar.setVisibility(View.VISIBLE);
         super.onStart();
         handler = new Handler();
         handler.postDelayed(new Runnable(){
@@ -107,6 +97,7 @@ public class MenuActivityUser extends AppCompatActivity {
                     }
                 }
                 handler.postDelayed(this, 1000);
+                pbar.setVisibility(View.GONE);
             }
         }, 1000);
     }

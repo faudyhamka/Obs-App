@@ -84,20 +84,20 @@
         "source": "C:\\Users\\Faudy Hamka\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\b55e2d4ac09f9078c96e0288d3241214\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
     },
     {
-        "merged": "D:\\STEI\\SMT 8\\TA YA ALLAH\\ObserverApp-FIX-3005-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\Faudy Hamka\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\b55e2d4ac09f9078c96e0288d3241214\\res\\drawable-xxhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
-    },
-    {
         "merged": "D:\\STEI\\SMT 8\\TA YA ALLAH\\ObserverApp-FIX-3005-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_crop_image_menu_flip.png.flat",
         "source": "C:\\Users\\Faudy Hamka\\.gradle\\caches\\transforms-1\\files-1.1\\android-image-cropper-2.6.0.aar\\7eb0e9d9d315d6266e2c5953bb2f103f\\res\\drawable-hdpi-v4\\crop_image_menu_flip.png"
     },
     {
-        "merged": "D:\\STEI\\SMT 8\\TA YA ALLAH\\ObserverApp-FIX-3005-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_tile_bg.xml.flat",
-        "source": "C:\\Users\\Faudy Hamka\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\707db9e50e06f5dcd33eb11bf41e72a3\\res\\drawable\\notification_tile_bg.xml"
+        "merged": "D:\\STEI\\SMT 8\\TA YA ALLAH\\ObserverApp-FIX-3005-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\Faudy Hamka\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\b55e2d4ac09f9078c96e0288d3241214\\res\\drawable-xxhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
     },
     {
         "merged": "D:\\STEI\\SMT 8\\TA YA ALLAH\\ObserverApp-FIX-3005-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_ipage.xml.flat",
         "source": "D:\\STEI\\SMT 8\\TA YA ALLAH\\ObserverApp-FIX-3005-master\\app\\src\\main\\res\\layout\\activity_ipage.xml"
+    },
+    {
+        "merged": "D:\\STEI\\SMT 8\\TA YA ALLAH\\ObserverApp-FIX-3005-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_tile_bg.xml.flat",
+        "source": "C:\\Users\\Faudy Hamka\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\707db9e50e06f5dcd33eb11bf41e72a3\\res\\drawable\\notification_tile_bg.xml"
     },
     {
         "merged": "D:\\STEI\\SMT 8\\TA YA ALLAH\\ObserverApp-FIX-3005-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_media_cancel_action.xml.flat",
@@ -112,12 +112,12 @@
         "source": "C:\\Users\\Faudy Hamka\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\b55e2d4ac09f9078c96e0288d3241214\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_36dp.png"
     },
     {
-        "merged": "D:\\STEI\\SMT 8\\TA YA ALLAH\\ObserverApp-FIX-3005-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\Faudy Hamka\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\b55e2d4ac09f9078c96e0288d3241214\\res\\drawable-xhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
-    },
-    {
         "merged": "D:\\STEI\\SMT 8\\TA YA ALLAH\\ObserverApp-FIX-3005-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Faudy Hamka\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\b55e2d4ac09f9078c96e0288d3241214\\res\\drawable-mdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\STEI\\SMT 8\\TA YA ALLAH\\ObserverApp-FIX-3005-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\Faudy Hamka\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\b55e2d4ac09f9078c96e0288d3241214\\res\\drawable-xhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
     },
     {
         "merged": "D:\\STEI\\SMT 8\\TA YA ALLAH\\ObserverApp-FIX-3005-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
@@ -312,28 +312,28 @@
         "source": "C:\\Users\\Faudy Hamka\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\b55e2d4ac09f9078c96e0288d3241214\\res\\layout-watch-v20\\abc_alert_dialog_title_material.xml"
     },
     {
-        "merged": "D:\\STEI\\SMT 8\\TA YA ALLAH\\ObserverApp-FIX-3005-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_enumber.png.flat",
-        "source": "D:\\STEI\\SMT 8\\TA YA ALLAH\\ObserverApp-FIX-3005-master\\app\\src\\main\\res\\drawable\\enumber.png"
-    },
-    {
         "merged": "D:\\STEI\\SMT 8\\TA YA ALLAH\\ObserverApp-FIX-3005-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
         "source": "C:\\Users\\Faudy Hamka\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\b55e2d4ac09f9078c96e0288d3241214\\res\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
-        "merged": "D:\\STEI\\SMT 8\\TA YA ALLAH\\ObserverApp-FIX-3005-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_lines_media.xml.flat",
-        "source": "C:\\Users\\Faudy Hamka\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.1.aar\\56cc54940fc7a75c839f0e5da8eb78ea\\res\\layout\\notification_template_lines_media.xml"
+        "merged": "D:\\STEI\\SMT 8\\TA YA ALLAH\\ObserverApp-FIX-3005-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_enumber.png.flat",
+        "source": "D:\\STEI\\SMT 8\\TA YA ALLAH\\ObserverApp-FIX-3005-master\\app\\src\\main\\res\\drawable\\enumber.png"
     },
     {
         "merged": "D:\\STEI\\SMT 8\\TA YA ALLAH\\ObserverApp-FIX-3005-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat",
         "source": "C:\\Users\\Faudy Hamka\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\707db9e50e06f5dcd33eb11bf41e72a3\\res\\drawable-hdpi-v4\\notify_panel_notification_icon_bg.png"
     },
     {
-        "merged": "D:\\STEI\\SMT 8\\TA YA ALLAH\\ObserverApp-FIX-3005-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\Faudy Hamka\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\b55e2d4ac09f9078c96e0288d3241214\\res\\drawable-mdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
+        "merged": "D:\\STEI\\SMT 8\\TA YA ALLAH\\ObserverApp-FIX-3005-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_lines_media.xml.flat",
+        "source": "C:\\Users\\Faudy Hamka\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.1.aar\\56cc54940fc7a75c839f0e5da8eb78ea\\res\\layout\\notification_template_lines_media.xml"
     },
     {
         "merged": "D:\\STEI\\SMT 8\\TA YA ALLAH\\ObserverApp-FIX-3005-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_design_ic_visibility_off.png.flat",
         "source": "C:\\Users\\Faudy Hamka\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.0.aar\\563c5cb669320c25733ac4b160cf8441\\res\\drawable-xxhdpi-v4\\design_ic_visibility_off.png"
+    },
+    {
+        "merged": "D:\\STEI\\SMT 8\\TA YA ALLAH\\ObserverApp-FIX-3005-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\Faudy Hamka\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\b55e2d4ac09f9078c96e0288d3241214\\res\\drawable-mdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
     },
     {
         "merged": "D:\\STEI\\SMT 8\\TA YA ALLAH\\ObserverApp-FIX-3005-master\\app\\build\\intermediates\\res\\merged\\debug\\color_common_google_signin_btn_tint.xml.flat",

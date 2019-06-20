@@ -91,21 +91,6 @@
             ]
         },
         {
-            "outputFile": "D:\\STEI\\SMT 8\\TA YA ALLAH\\ObserverApp-FIX-3005-master\\app\\build\\intermediates\\res\\merged\\debug\\values-v18_values-v18.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\Faudy Hamka\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\b55e2d4ac09f9078c96e0288d3241214\\res\\values-v18\\values-v18.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "48",
-                        "endOffsets": "99"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "D:\\STEI\\SMT 8\\TA YA ALLAH\\ObserverApp-FIX-3005-master\\app\\build\\intermediates\\res\\merged\\debug\\values-hi_values-hi.arsc.flat",
             "map": [
                 {
@@ -191,6 +176,21 @@
                         "startOffsets": "1876,1986,2189,2318,2432,2642,2774,2916,3254,3473,3584,3781,3913,4121,4305,4398,4495",
                         "endColumns": "109,202,128,113,209,131,141,131,218,110,196,131,207,183,92,96,114",
                         "endOffsets": "1981,2184,2313,2427,2637,2769,2911,3043,3468,3579,3776,3908,4116,4300,4393,4490,4605"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\STEI\\SMT 8\\TA YA ALLAH\\ObserverApp-FIX-3005-master\\app\\build\\intermediates\\res\\merged\\debug\\values-v18_values-v18.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Faudy Hamka\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\b55e2d4ac09f9078c96e0288d3241214\\res\\values-v18\\values-v18.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "48",
+                        "endOffsets": "99"
                     }
                 }
             ]
@@ -335,6 +335,21 @@
             ]
         },
         {
+            "outputFile": "D:\\STEI\\SMT 8\\TA YA ALLAH\\ObserverApp-FIX-3005-master\\app\\build\\intermediates\\res\\merged\\debug\\values-en-rXC_values-en-rXC.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Faudy Hamka\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\b55e2d4ac09f9078c96e0288d3241214\\res\\values-en-rXC\\values-en-rXC.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,310,510,719,904,1106,1321,1494,1671,1855,2059,2264,2465,2672,2874,3079,3351,3551",
+                        "endColumns": "204,199,208,184,201,214,172,176,183,203,204,200,206,201,204,271,199,178",
+                        "endOffsets": "305,505,714,899,1101,1316,1489,1666,1850,2054,2259,2460,2667,2869,3074,3346,3546,3725"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "D:\\STEI\\SMT 8\\TA YA ALLAH\\ObserverApp-FIX-3005-master\\app\\build\\intermediates\\res\\merged\\debug\\values-bg_values-bg.arsc.flat",
             "map": [
                 {
@@ -420,21 +435,6 @@
                         "startOffsets": "3102",
                         "endColumns": "196",
                         "endOffsets": "3294"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "D:\\STEI\\SMT 8\\TA YA ALLAH\\ObserverApp-FIX-3005-master\\app\\build\\intermediates\\res\\merged\\debug\\values-en-rXC_values-en-rXC.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\Faudy Hamka\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\b55e2d4ac09f9078c96e0288d3241214\\res\\values-en-rXC\\values-en-rXC.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,310,510,719,904,1106,1321,1494,1671,1855,2059,2264,2465,2672,2874,3079,3351,3551",
-                        "endColumns": "204,199,208,184,201,214,172,176,183,203,204,200,206,201,204,271,199,178",
-                        "endOffsets": "305,505,714,899,1101,1316,1489,1666,1850,2054,2259,2460,2667,2869,3074,3346,3546,3725"
                     }
                 }
             ]
@@ -2654,6 +2654,21 @@
             ]
         },
         {
+            "outputFile": "D:\\STEI\\SMT 8\\TA YA ALLAH\\ObserverApp-FIX-3005-master\\app\\build\\intermediates\\res\\merged\\debug\\values-port_values-port.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Faudy Hamka\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\b55e2d4ac09f9078c96e0288d3241214\\res\\values-port\\values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "D:\\STEI\\SMT 8\\TA YA ALLAH\\ObserverApp-FIX-3005-master\\app\\build\\intermediates\\res\\merged\\debug\\values-is_values-is.arsc.flat",
             "map": [
                 {
@@ -2739,21 +2754,6 @@
                         "startOffsets": "2967",
                         "endColumns": "187",
                         "endOffsets": "3150"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "D:\\STEI\\SMT 8\\TA YA ALLAH\\ObserverApp-FIX-3005-master\\app\\build\\intermediates\\res\\merged\\debug\\values-port_values-port.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\Faudy Hamka\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\b55e2d4ac09f9078c96e0288d3241214\\res\\values-port\\values-port.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "55",
-                        "endOffsets": "106"
                     }
                 }
             ]
@@ -3029,22 +3029,6 @@
             ]
         },
         {
-            "outputFile": "D:\\STEI\\SMT 8\\TA YA ALLAH\\ObserverApp-FIX-3005-master\\app\\build\\intermediates\\res\\merged\\debug\\values-v25_values-v25.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\Faudy Hamka\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\b55e2d4ac09f9078c96e0288d3241214\\res\\values-v25\\values-v25.xml",
-                    "from": {
-                        "startLines": "2,3,4,6",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,126,209,308",
-                        "endLines": "2,3,5,7",
-                        "endColumns": "70,82,12,12",
-                        "endOffsets": "121,204,303,414"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "D:\\STEI\\SMT 8\\TA YA ALLAH\\ObserverApp-FIX-3005-master\\app\\build\\intermediates\\res\\merged\\debug\\values-watch-v20_values-watch-v20.arsc.flat",
             "map": [
                 {
@@ -3056,6 +3040,22 @@
                         "endLines": "4,7,10",
                         "endColumns": "12,12,12",
                         "endOffsets": "209,380,553"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\STEI\\SMT 8\\TA YA ALLAH\\ObserverApp-FIX-3005-master\\app\\build\\intermediates\\res\\merged\\debug\\values-v25_values-v25.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Faudy Hamka\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\b55e2d4ac09f9078c96e0288d3241214\\res\\values-v25\\values-v25.xml",
+                    "from": {
+                        "startLines": "2,3,4,6",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,126,209,308",
+                        "endLines": "2,3,5,7",
+                        "endColumns": "70,82,12,12",
+                        "endOffsets": "121,204,303,414"
                     }
                 }
             ]
