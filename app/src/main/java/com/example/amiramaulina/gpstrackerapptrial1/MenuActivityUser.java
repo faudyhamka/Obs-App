@@ -1,6 +1,5 @@
 package com.example.amiramaulina.gpstrackerapptrial1;
 
-
 import android.app.Notification;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
@@ -38,6 +37,7 @@ public class MenuActivityUser extends AppCompatActivity {
     TextView f, hr;
     SharedPreferences sharedpreferences, sharedPreferences;
     public String eN1, eN2, eN3, eN4, eN5;
+    ProgressBar pbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,6 +46,7 @@ public class MenuActivityUser extends AppCompatActivity {
         queue = Volley.newRequestQueue(this);
         f = (TextView) findViewById(R.id.ts1);
         hr = (TextView) findViewById(R.id.ts2);
+        pbar = (ProgressBar) findViewById(R.id.pb);
         sharedpreferences = getSharedPreferences(mypreference,
                 Context.MODE_PRIVATE);
         sharedPreferences = getSharedPreferences(myPreference,
@@ -61,9 +62,8 @@ public class MenuActivityUser extends AppCompatActivity {
 
     @Override
     protected void onStart() {
-        final ProgressBar pbar = (ProgressBar) findViewById(R.id.pb);
-        pbar.setVisibility(View.VISIBLE);
         super.onStart();
+        pbar.setVisibility(View.VISIBLE);
         handler = new Handler();
         handler.postDelayed(new Runnable(){
             public void run(){
@@ -72,6 +72,7 @@ public class MenuActivityUser extends AppCompatActivity {
                 GETA("http://"+ip+ ":3000/location2");
                 if (fallstateTimestamp != null) {
                     if (fallcheck == null) {
+                        pbar.setVisibility(View.GONE);
                         fallcheck = fallstateTimestamp;
                         Log.i("tes", "tes fallstring " + fallcheck);
                         f.setText(fallstateTimestamp);
@@ -85,6 +86,7 @@ public class MenuActivityUser extends AppCompatActivity {
                 }
                 if (hstateValueTimestamp != null) {
                     if (hrcheck == null) {
+                        pbar.setVisibility(View.GONE);
                         hrcheck = hstateValueTimestamp;
                         Log.i("tes", "tes hrstring " + hrcheck);
                         hr.setText(hstateValueTimestamp);
@@ -97,7 +99,6 @@ public class MenuActivityUser extends AppCompatActivity {
                     }
                 }
                 handler.postDelayed(this, 1000);
-                pbar.setVisibility(View.GONE);
             }
         }, 1000);
     }
