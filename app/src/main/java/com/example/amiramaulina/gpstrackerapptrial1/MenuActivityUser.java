@@ -47,6 +47,7 @@ public class MenuActivityUser extends AppCompatActivity {
         f = (TextView) findViewById(R.id.ts1);
         hr = (TextView) findViewById(R.id.ts2);
         pbar = (ProgressBar) findViewById(R.id.pb);
+        pbar.setVisibility(View.VISIBLE);
         sharedpreferences = getSharedPreferences(mypreference,
                 Context.MODE_PRIVATE);
         sharedPreferences = getSharedPreferences(myPreference,
@@ -63,7 +64,6 @@ public class MenuActivityUser extends AppCompatActivity {
     @Override
     protected void onStart() {
         super.onStart();
-        pbar.setVisibility(View.VISIBLE);
         handler = new Handler();
         handler.postDelayed(new Runnable(){
             public void run(){

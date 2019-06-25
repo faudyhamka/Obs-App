@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Fri May 24 21:39:18 ICT 2019
+#Sun Jun 23 14:29:12 ICT 2019
 1.base=D\:\\STEI\\SMT 8\\TA YA ALLAH\\ObserverApp-FIX-3005-master\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
 2.path=classes.dex
 0.baseType=DIRECTORY
